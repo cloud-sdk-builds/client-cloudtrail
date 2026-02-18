@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudtrail`](https://www.npmjs.com/package/@aws-sdk/client-cloudtrail/v/3.186.0).
+[`@aws-sdk/client-cloudtrail`](https://www.npmjs.com/package/@aws-sdk/client-cloudtrail/v/3.187.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.186.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.187.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-z9x7hJCsJWu/Wo8kmUs08Ehj7Kj3uhYplKsEDsBUx/2aNzqg3TIAuMwr3Squqeyc
+sha384-mZgbj+I8+4yQpNlLLtTi9Zj1YDActXpdJWIZa+uYdCP3seBr6/J4GvThKr2GiI1n
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudtrail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.186.0/index.min.mjs"
+            "@aws-sdk/client-cloudtrail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.187.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.186.0/index.min.mjs": "sha384-z9x7hJCsJWu/Wo8kmUs08Ehj7Kj3uhYplKsEDsBUx/2aNzqg3TIAuMwr3Squqeyc"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.187.0/index.min.mjs": "sha384-mZgbj+I8+4yQpNlLLtTi9Zj1YDActXpdJWIZa+uYdCP3seBr6/J4GvThKr2GiI1n"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudtrail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.186.0/index.min.mjs"
+                        "@aws-sdk/client-cloudtrail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.187.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.186.0/index.min.mjs": "sha384-z9x7hJCsJWu/Wo8kmUs08Ehj7Kj3uhYplKsEDsBUx/2aNzqg3TIAuMwr3Squqeyc"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail@3.187.0/index.min.mjs": "sha384-mZgbj+I8+4yQpNlLLtTi9Zj1YDActXpdJWIZa+uYdCP3seBr6/J4GvThKr2GiI1n"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.186.0`)
+* Always pin to a specific version (`@3.187.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudtrail/blob/refs/tags/3.186.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudtrail/blob/refs/tags/3.187.0/LICENSE
 ```
 
 ---
